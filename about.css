@@ -1,0 +1,89 @@
+body
+{
+    background-image: url(img/pier-6635035.jpg);
+    background-size: cover;
+}
+
+
+.nav h1{
+    color:rgb(56, 44, 223); ;
+    font-size: larger;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home a {
+    position: absolute;
+    right: 700px;
+    top: 17px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #000;
+    padding-top: 10px;
+}
+.des a{
+    position: absolute;
+    right: 500px;
+    top: 17px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #000;
+    padding-top: 10px;
+}
+.abt a{
+    position: absolute;
+    top: 17px;
+    right: 350px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+.con a{
+    position: absolute;
+    top: 17px;
+    right: 200px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    padding-top: 10px;}
+.des a:hover{
+    color: blue;
+}
+.abt a:hover
+{
+    color: blue;
+}
+.home a:hover{
+
+
+
+    color: blue
+}
+.con a:hover{
+    color: blue;
+}
+.nav
+{
+ position: -webkit-sticky;
+
+}
+.head h1{
+    font-size:100px;
+   right: 400px;
+   position: absolute;
+   top: 70px;
+   font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head p{
+    position: absolute;
+    top: 160px;
+    right: 450px;
+    
+}
+.abt p{
+ position: absolute;
+ bottom: 20px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-weight: bold;
+}

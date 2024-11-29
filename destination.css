@@ -1,0 +1,159 @@
+body {
+    background-image: url(img/kitesurfing-7843135.jpg);
+    background-size: cover;
+    color: rgb(56, 44, 223);
+   
+   
+}
+
+h1{
+    padding-top: 10px;
+    font-size: larger;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home a {
+    position: absolute;
+    right: 700px;
+    top: 17px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #000;
+    padding-top: 10px;
+}
+.des a{
+    position: absolute;
+    right: 500px;
+    top: 17px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #000;
+    padding-top: 10px;
+}
+.abt a{
+    position: absolute;
+    top: 17px;
+    right: 350px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+.con a{
+    position: absolute;
+    top: 17px;
+    right: 200px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    padding-top: 10px;}
+.des a:hover{
+    color: blue;
+}
+.abt a:hover
+{
+    color: blue;
+}
+.home a:hover{
+    color: blue
+}
+.con a:hover{
+    color: blue;
+}
+.nav
+{
+ position: -webkit-sticky;
+
+}
+.deswrd h1
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: small;
+color: #000;
+position: absolute;
+left: 40px;
+}
+.place
+{
+    display: flex;
+width: 50px;
+position: absolute;
+top: 130px;
+
+}
+.place p{
+    width:300px;
+    margin:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+.place h1{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+
+}
+.place img{
+
+    border-radius: 10px;
+    padding-left: 10px;
+    height: fit-content;
+
+}
+.place span{
+    color: blue;
+}
+.place h2{
+    margin: 30px;
+}
+.tha {
+    border: 2px solid #000;
+    padding: 50px 10px;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin-right: 20px;
+}
+.sing{
+    border: 2px solid #000;
+    padding: 50px 10px;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin-right: 20px;
+
+}
+.kas
+{
+    border: 2px solid #000;
+    padding: 50px 10px;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin-right: 20px;
+}
+.dub
+{
+    border: 2px solid #000;
+    padding: 50px 10px;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin-right: 20px;
+    
+}
+
+.dub:hover{
+    background-color: aliceblue;
+    opacity:30%;
+}
+
+.kas:hover{
+    background-color: aliceblue;
+    opacity:30%;
+}
+.sing:hover{
+    background-color: aliceblue;
+    opacity:30%;
+}
+.tha:hover{
+    background-color: aliceblue;
+    opacity:30%;
+}
+  
