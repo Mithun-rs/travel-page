@@ -1,0 +1,109 @@
+body
+{
+    background-image: url(img/photo-1682686578023-dc680e7a3aeb.jpg);
+    background-size: cover;
+
+}
+.name h1::first-line{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: rgb(56, 44, 223);
+     font-size: larger;
+     
+}
+.imagefont 
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+}
+.imagefont p{
+    text-align: center;
+    font-size: 60px;
+padding-bottom: 60px;
+margin: 0px;
+
+}
+button{
+    background-color: rgba(235, 224, 158, 0.555);
+border-radius: 10px;
+height: 35px;
+}
+.nxt {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+}
+.quote
+{
+    text-align:right;
+    margin-right: 50px;
+    margin-top: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: larger;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home a {
+    position: absolute;
+    right: 700px;
+    top: 17px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #000;
+    padding-top: 10px;
+}
+.des a{
+    position: absolute;
+    right: 500px;
+    top: 17px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #000;
+    padding-top: 10px;
+}
+.abt a{
+    position: absolute;
+    top: 17px;
+    right: 350px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+.con a{
+    position: absolute;
+    top: 17px;
+    right: 200px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    padding-top: 10px;}
+.des a:hover{
+    color: blue;
+}
+.abt a:hover
+{
+    color: blue;
+}
+.home a:hover{
+    color: blue
+}
+.con a:hover{
+    color: blue;
+}
+.nav
+{
+    border: 4px #000;
+ position: -webkit-sticky;
+
+}
+.nxt button a
+{
+    border: none;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
